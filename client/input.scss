@@ -1,0 +1,25 @@
+$tan-color: #E8D9C5;
+$font-family: 'Quicksand', sans-serif;
+$font-color: #3F3F3F;
+$primary-color: #7C9FCB;
+
+
+// Navigation Bar
+
+body {
+  background-color: $tan-color;
+  font-family: $font-family;
+  font: 85% $font-color;
+}
+
+nav {
+  text-align: center;
+  ul { list-style-type: none; }
+  li { display: inline-flex; }
+  a { 
+    text-decoration: none; 
+    padding: 3em;
+  }
+  a:visited { color: $font-color; }
+  a:hover { color: $primary-color; }
+}
