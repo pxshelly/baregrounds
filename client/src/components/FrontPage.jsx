@@ -2,7 +2,11 @@ import React from 'react';
 
 function FrontPage() {
   return (
-    <h1>FrontPage</h1>
+    <div>
+      <h1>baregrounds</h1>
+      <img className='cover' alt='' src='https://baregrounds.s3-us-west-2.amazonaws.com/img_3941+66.JPG'/>
+      <h3>Make this a world we can walk on barefoot again</h3>
+    </div>
   );
 }
 
