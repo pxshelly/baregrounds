@@ -2,7 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import { BrowserRouter } from 'react-router-dom';
 import App from './src/components/App.jsx';
-import './input.scss';
+import '../client/dist/input.scss';
 
 ReactDOM.render(
   <BrowserRouter>
