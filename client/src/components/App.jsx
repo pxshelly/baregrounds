@@ -5,7 +5,6 @@ import { Link } from 'react-router-dom';
 function App() {
   return (
     <nav>
-      <Routes />
       <ul>
         <li>
           <Link to="/">FrontPage</Link>
@@ -14,9 +13,13 @@ function App() {
           <Link to="/intro">Intro</Link>
         </li>
         <li>
+          <Link to='/humanactivity'>Human Actvity</Link>
+        </li>
+        <li>
           <Link to="saveourworld">Save Our World</Link>
           </li>
       </ul>
+      <Routes />
     </nav>
   );
 }
