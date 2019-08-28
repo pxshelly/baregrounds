@@ -56,7 +56,12 @@ nav {
     font-size: .9em;
   }
 }
+// Front Page
 
+.cover {
+   max-height: 60%;
+   max-width: 60%;
+}
 // Human Activity Component
 
 h1 { @extend %header-font; }
