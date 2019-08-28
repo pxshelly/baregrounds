@@ -3,7 +3,7 @@ module.exports = {
 entry: __dirname + '/client/index.jsx',
 output: {
   filename: 'bundle.js',
-  path:__dirname + '/dist'
+  path:__dirname + '/client/dist'
 },
 mode: 'development',
 devtool: 'inline-source-map',
